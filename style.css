@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family:  "Roboto", sans-serif;
+}
+body{
+    height: 200vh;
+}
+
+.navbar {
+    width: 100%;
+    height:45px;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+}
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 12px;
+    height: 100%;
+    
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+
+.sidebar{
+    width: 18%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+    position: fixed;
+    top: 45px;
+    z-index: 1;
+    
+}
+.sidebar a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.sidebar a:hover{
+    background-color: black;
+    color: white;
+}
+.sidebar h3{
+    padding: 20px;
+}
+
+.content{
+    
+    padding-top: 40px;
+    padding-left: 16%;
+    position: absolute;
+}
+.bbox{
+    width: 70%;
+    float: left;
+    height: 200px;
+}
+.bbox h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    padding-left: 50px;
+    font-weight: lighter;
+    color: rgba(21, 153, 21, 0.5);
+}
+.bbox p{
+    padding-left: 50px;
+    font-size: 15px;
+    line-height: 25px;
+   
+}
+.sbox .a1{
+    width: 28%;
+    float: right;
+    border: 1px solid rgb(182, 182, 182);
+    margin-top: 40px;
+    text-align: center;
+    height: 80px;
+    padding-top: 4.7vh;
+    margin-right: 20px;
+    
+   
+}
+.sbox .a2{
+    width: 28%;
+    float: right;
+    border: 1px solid rgb(182, 182, 182);
+    margin-top: 15px;
+    text-align: center;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11.5vh;
+    margin-right: 20px;
+}
+.content2{
+    position: absolute;
+    top: 50vh;
+}
+.content3{
+    position: absolute;
+    top: 100vh;
+}
+
+.footer{
+    width: 82%;
+    position: absolute;
+    bottom: 0;
+    background-color: aqua;
+    right: 0;
+}
+.footer .f1{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+.footer p{
+    color: white;
+    padding-left: 20px;
+}
+.f1 p{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.footer .f2{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(39, 39, 39);
+}
+.f2 p{
+    padding-top: 15px;
+}
+.f2 span{
+    text-decoration: underline;
+}
+
+.page{
+    width: 82%;
+    height: 50px;
+    position: absolute;
+    bottom: 25vh;
+    right: 0;
+    text-align: center;
+}
+.page a{
+    text-decoration: none;
+    padding: 12px 17px;
+   color: black;
+    font-size: 15px;
+}
+.page a:hover{
+    background-color: black;
+    color: white;
+}
+#first{
+    background-color: black;
+    color: white;
+}
+#arrow{
+    padding: 12px 12px;
+}
